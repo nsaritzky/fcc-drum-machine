@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .drum-pad {
+    @apply w-24 h-24 flex justify-center m-2 border shadow-md bg-blue-200;
+  }
+}
